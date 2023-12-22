@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+/* font-family: 'Figtree', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container{
+    width: 400px;
+    height: 550px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 0 0 hsl(0, 0%, 7%);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px;
+   
+}
+.card{
+    width: 100%;
+   
+}
+.illus{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.tag{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 15px 8px 15px;
+    border-radius: 5px ;
+    margin-top: 20px;
+}
+.published-date{
+    font-weight: 600;
+    font-size: 15px;
+    color:  hsl(0, 0%, 7%);
+    margin-top: 18px;
+}
+.course-title{
+    font-weight: 800;
+    font-size: 25px;
+    color:  hsl(0, 0%, 7%);
+    margin-top: 18px;
+}
+.course-title:hover{
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+.description{
+    font-weight: 600;
+    font-size: 16px;
+    color:  hsl(0, 0%, 50%);
+    line-height: 1.45rem;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.01rem;
+    margin-top: 18px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-top: 18px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+
+}
+.name{
+    font-weight: 800;
+    font-size: 16px;
+    color:  hsl(0, 0%, 7%);
+}
+
+@media screen and (max-width:675px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 340px;
+        padding: 20px;
+    }
+}
