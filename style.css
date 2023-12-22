@@ -16,7 +16,7 @@ body{
     font-family: 'Figtree', sans-serif;
 }
 
-.container{
+main{
     width: 400px;
     height: 550px;
     border: 1px solid hsl(0, 0%, 7%);
